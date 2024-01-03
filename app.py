@@ -9,7 +9,6 @@ def upload_file():
         if request.files.getlist("file")[0].filename:
             upload_files = request.files.getlist("file")
             for upload_file in upload_files:
-                #受信したファイルをtmp/に保存
                 upload_file.save(os.path.join("./upload", upload_file.filename))
         else:
             return "No file part."
