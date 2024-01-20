@@ -1,0 +1,15 @@
+body {
+    width: 100vw;
+}
+
+.wrapper {
+    width: 60%;
+}
+
+.container {
+    width: 100%;
+}
+
+.button {
+    height: 20%;
+}
